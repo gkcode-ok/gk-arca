@@ -10,12 +10,12 @@ class GkArcaClientService
 {
     private function baseUrl(): string
     {
-        return rtrim((string) config('gkarca.base_url'), '/');
+        return rtrim((string) config('arca.gkarca.base_url'), '/');
     }
 
     private function adminToken(): string
     {
-        return (string) config('gkarca.admin_token');
+        return (string) config('arca.gkarca.admin_token');
     }
 
     public function hasAdminConfig(): bool
