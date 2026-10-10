@@ -21,7 +21,7 @@ class ArcaServiceProvider extends ServiceProvider
         ], 'arca-config');
 
         $this->loadRoutesFrom(
-            __DIR__ . '/../routes/Arca/web.php'
+            __DIR__ . '/../routes/web.php'
         );
 
         $this->loadMigrationsFrom(
