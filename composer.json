@@ -1,0 +1,24 @@
+{
+    "name": "gkcode-ok/gk-arca",
+    "description": "Integración de Google Calendar para aplicaciones Laravel y Vue",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GKCode\\Arca\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GKCode\\Arca\\ArcaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
