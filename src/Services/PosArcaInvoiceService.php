@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace GKCode\Arca\Services;
 
 use App\Models\Generic\Arca\ArcaConnection;
 use App\Models\System\PosSale;

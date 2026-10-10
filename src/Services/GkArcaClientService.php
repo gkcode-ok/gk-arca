@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace GKCode\Arca\Services;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Http;

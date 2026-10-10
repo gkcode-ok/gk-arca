@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace GKCode\Arca\Http\Controllers;
 
 use App\Http\Controllers\BaseController;
 use App\Models\Generic\Person;

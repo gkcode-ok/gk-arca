@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace GKCode\Arca\Models;
 
 use App\Models\ModelGeneral;
 use App\Models\System\Company;
