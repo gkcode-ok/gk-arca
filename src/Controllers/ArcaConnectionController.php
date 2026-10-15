@@ -1,6 +1,6 @@
 <?php
 
-namespace GKCode\Arca\Http\Controllers;
+namespace GKCode\Arca\Controllers;
 
 use App\Http\Controllers\BaseController;
 use App\Models\Generic\Arca\ArcaConnection;
