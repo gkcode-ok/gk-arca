@@ -1,6 +1,6 @@
 <?php
 
-namespace GKCode\Arca\Http\Controllers;
+namespace GKCode\Arca\src\Controllers;
 
 use App\Http\Controllers\BaseController;
 use App\Models\Generic\Arca\ArcaConnection;
@@ -16,9 +16,7 @@ class ArcaConnectionController extends BaseController
     protected $modelo = 'Conexion ARCA';
     protected $mainModel = ArcaConnection::class;
 
-    public function __construct(private readonly GkArcaClientService $gkArca)
-    {
-    }
+    public function __construct(private readonly GkArcaClientService $gkArca) {}
 
     public function estado(Request $request): array
     {
