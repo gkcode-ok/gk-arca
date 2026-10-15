@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ArcaConnectionController;
+use GKCode\Arca\Http\Controllers\ArcaConnectionController;
 // use App\Http\Controllers\PosController;
 use Illuminate\Support\Facades\Route;
 
